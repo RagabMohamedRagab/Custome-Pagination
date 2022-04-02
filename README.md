@@ -1,13 +1,13 @@
 # Custome-Paginations 🏅
 <img src="/Pagination/wwwroot/Images/GitHup.PNG" alt="Photo"/>
 
-<h1>1️⃣ Nuget Packages 🚀:</h1>
+<h3>1️⃣ Nuget Packages 🚀:</h3>
 
 ```
 🔊<PackageReference Include="cloudscribe.Pagination.Models" Version="1.1.0" />
 🔊<PackageReference Include="cloudscribe.Web.Pagination" Version="2.1.1" />
 ```
-<h1>2️⃣ Startup.cs ♨:</h1>
+<h3>2️⃣ Startup.cs ♨:</h3>
 
 ```
  public void ConfigureServices(IServiceCollection services)
@@ -17,14 +17,14 @@
             services.AddCloudscribePagination();
         }
 ```
-<h1>3️⃣ ViewImports ♨:</h1>
+<h3>3️⃣ ViewImports ♨:</h3>
 
 ```
  @using cloudscribe.Pagination.Models;
  @using cloudscribe.Web.Pagination;
  @addTagHelper "*, cloudscribe.Web.Pagination"
 ```
-<h1> Controller 🔥 :</h1>
+<h3>4️⃣ Controller 🔥 :</h3>
 
 ```
 public class HomeController : Controller
@@ -55,7 +55,7 @@ public class HomeController : Controller
 }
 ```
 
-<h1>4️⃣ View 🌞:</h1>
+<h3>5️⃣ View 🌞:</h3>
 
 ```
 @model PagedResult<Customer>;
