@@ -114,3 +114,4 @@ public class HomeController : Controller
 </section>
 
 ```
+More details [cloudscribe Page](https://www.cloudscribe.com/cloudscribe-web-pagination).
