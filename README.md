@@ -55,7 +55,7 @@ public class HomeController : Controller
 }
 ```
 
-<h1>3️⃣ View 🌞:</h1>
+<h1>4️⃣ View 🌞:</h1>
 
 ```
 @model PagedResult<Customer>;
